@@ -29,10 +29,10 @@
               <a href="#eventos" class="nav__link">Eventos</a>
             </li>
             <li>
-              <a href="#miembros" class="nav__link">Conviértete en miembro</a>
+              <a href="#miembros" class="nav__link" id="#miembros">Conviértete en miembro</a>
             </li>
             <li>
-              <a href="#contactos" class="nav__link">Contactos</a>
+              <a href="#contactos" class="nav__link" id="#contactos">Contactos</a>
             </li>
           </ul>
         </nav>
@@ -137,7 +137,172 @@
             </li>
           </ul>
         </section>
+        <section id="eventos" class="events">
+          <div class="events__content">
+            <h2 class="events__heading">Próximos eventos:</h2>
+            <h3 class="events__title">
+              En honor de Joan Feynman: mujeres en la astrofísica
+            </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_calendar.svg"
+                  alt="Calendar icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">Lunes 12 de enero</p>
+              </div>
+              <div class="event-info__item">
+                <img
+                  src="./images/icon_pin.svg"
+                  alt="Pin icon"
+                  class="event-info__icon"
+                />
+                <p class="event-info__text">
+                  Sala de conferencias y virtual de la biblioteca Triple Peaks
+                </p>
+              </div>
+            </div>
+            <p class="events__description">
+              En este evento, en el que celebramos el nombre de nuestra
+              biblioteca, nuestra invitada nos llevará a través de un viaje para
+              conocer a algunas de las mujeres investigadoras más importantes en
+              el mundo de la ciencia espacial. Es fácil caer en la falsa idea de
+              que este campo está principalmente dominado por hombres, pero
+              nuestra conferencia busca cambiar esa noción y probar que no ha
+              sido así desde, al menos, el siglo XVII.
+            </p>
+            <a href="#" class="events__more">Más eventos &rarr;</a>
+          </div>
+        
+
+          <div class="events__cover">
+            <img
+              class="events__image"
+              src="images/cafe.png"
+              alt="una imagen de un café"
+            />
+
+            <div class="person person_name_feynmann">
+            <p class="person__caption">Joan Feynmann</p>
+            <img
+              class="person__image_size_l"
+              src="images/person_feynman.png"
+              alt="La foto de Joan Feynmann" />
+            </div>
+          
+            <div class="person person_name_burbidge">
+            <p class="person__caption">Margaret Burbidge</p>
+            <img
+              class="person__image_size_m"
+              src="images/person_burbidge.png"
+              alt="La foto de Margaret Burbidge" />
+            </div>
+
+            <div class="person person_name_cannon">
+            <img
+              class="person__image_size_m"
+              src="images/person_cannon.png"
+              alt="La foto de Annie Jump Cannon" />
+            <p class="person__caption">Annie Jump Cannon</p>
+            </div>
+
+            <div class="person person_name_mitchell">
+            <img
+              class="person__image_size_s"
+              src="images/person_mitchell.png"
+              alt="La foto de Maria Mitchell" />
+            <p class="person__caption">Maria Mitchell</p>
+            </div>
+
+            <div class="person person_name_tarter">
+            <p class="person__caption">Jill Tarter</p>
+              <img
+              class="person__image_size_m"
+              src="images/person_tarter.png"
+              alt="La foto de Jill Tarter" />
+            </div>
+
+          </div>
+          </section>
+          <section class="membership" id="miembros">
+  <h2 class="membership__title" >¡Convertirse en miembro es muy fácil!</h2>
+  <ul class="membership__steps">
+    <li class="step">
+      <h3 class="step__title">
+        Paso 1
+        <img
+          src="./images/icon_step_forward.svg"
+          alt="icon forward"
+          class="step__icon"
+        />
+      </h3>
+      <p class="step__description">
+        Completa el formulario de afiliación en línea.
+      </p>
+    </li>
+    <li class="step">
+      <h3 class="step__title">
+        Paso 2
+        <img
+          src="./images/icon_step_forward.svg"
+          alt="icon forward"
+          class="step__icon"
+        />
+      </h3>
+      <p class="step__description">
+        Ven y recoge tu credencial de la biblioteca en la recepción.
+      </p>
+    </li>
+    <li class="step">
+      <h3 class="step__title">
+        Paso 3
+        <img
+          src="./images/icon_step_forward.svg"
+          alt="icon forward"
+          class="step__icon"
+        />
+      </h3>
+      <p class="step__description">Firma el envés de la tarjeta.</p>
+    </li>
+    <li class="step">
+      <h3 class="step__title">
+        Paso 4
+        <img
+          src="./images/icon_step_finish.svg"
+          alt="icon finish"
+          class="step__icon"
+        />
+      </h3>
+      <p class="step__description">
+        ¡Disfruta de los increíbles beneficios de nuestra membresía!
+      </p>
+    </li>
+  </ul>
+        </section>
+        </section>
       </main>
+      <footer class="footer">
+        <div id="contactos" class="footer__columns">
+          <div class="footer__column"></div>
+          <img class="footer__logo" src="images/logo_white.svg">
+          <div class="footer__column_content_hours">
+            <p class="footer__column-heading">Horas</p>
+            <ol class="footer__column-list">
+             <li>Lunes a viernes: 9 am - 8 pm </li>
+             <li>Sábados y domingos: 10 am - 6 pm</li>
+            </ol>
+          </div>
+          <div class="footer__column_content_social">
+            <p class="footer__column-heading">Redes Sociales</p>
+            <ol class="footer__column-list">
+             <li><img src="images/facebook_white.svg" alt="logo del feis" class="footer__social-icon">Facebook</li>
+             <li><img src="images/instagram_white.svg" alt="logo de insta" class="footer__social-icon">Instagram</li>
+            </ol>
+          </div>   
+        </div>
+      <p class="footer__copyright">© 2026 Raymundo Bautista Morales</p>
+      </footer>
     </div>
   </body>
 </html>

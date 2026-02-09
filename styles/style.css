@@ -122,7 +122,6 @@ ul {
   color: #ffffff;
 }
 
-/* Agrega la regla CSS para tu nueva clase aquí. Asegúrate de colocarlo antes de .card:, los padres deben preceder a sus hijos */
 .staff__cards {
   max-width: 760px;
   margin: 68px auto;
@@ -166,4 +165,255 @@ ul {
   font-size: 14px;
   line-height: 20px;
   color: #838383;
+}
+.events {
+  padding: 100px 0 120px 80px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.events__content {
+  flex-basis: 580px;
+}
+
+.events__heading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__title {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+  margin: 32px 0 0;
+}
+
+.events__info-section {
+  margin-top: 32px;
+}
+
+.event-info__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.event-info__icon {
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 12px;
+  width: 24px;
+  height: 24px;
+}
+
+.event-info__text {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  margin: 0;
+}
+
+.events__description {
+  margin: 40px 0 60px;
+}
+
+.events__more {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.events__cover {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 780px;
+  max-width: 780px;
+  position: relative;
+}
+
+.events__image {
+  max-width: 100%;
+}
+
+.person {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.person_name_feynmann {
+  position: absolute;
+  top: 0px;
+  right: 319px;
+}
+.person_name_burbidge {
+  position: absolute;
+  top: 96px;
+  right: 125px;
+}
+
+.person_name_cannon {
+  position: absolute;
+  bottom: 16px;
+  right: 216px;
+}
+
+.person_name_mitchell {
+  position: absolute;
+  left: 142px;
+  bottom: 82px;
+}
+
+.person_name_tarter {
+  position: absolute;
+  top: 79px;
+  left: 159px;
+}
+
+.person__image {
+  max-width: 100%;
+}
+
+.person__image_size_l {
+  width: 140px;
+}
+
+.person__image_size_m {
+  width: 100px;
+}
+
+.person__image_size_s {
+  width: 80px;
+}
+
+.person__caption {
+  text-align: center;
+  font-size: 14px;
+  margin: 0;
+}
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+  position: relative;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px auto;
+  width: 1300px;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  /* Agrega estilos */
+}
+
+.step {
+  width: 220px;
+  gap: 40px;
+  /* Agrega estilos */
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: #1f1f1f;
+  color: #fff;
+}
+
+.footer__columns {
+  padding: 60px 80px;
+  font-size: small;
+  display: flex;
+}
+
+.footer__column_content_hours {
+  margin: auto;
+  height: 160px;
+  padding-right: 80px;
+  margin-right: 0px;
+}
+
+.footer__column_content_social {
+  height: 160px;
+  margin-right: 80px;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.footer__column-heading {
+  list-style-type: none;
+  padding: 0;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0;
+}
+.footer__column-list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.footer__list {
+  /* El siguiente código elimina los estilos predeterminados del navegador para las listas */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.footer__list-item {
+  font-size: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__social-icon {
+  height: 16px;
+  width: 16px;
+  padding-right: 10px;
+}
+
+.footer__copyright {
+  padding: 80px;
+  font-size: medium;
 }
